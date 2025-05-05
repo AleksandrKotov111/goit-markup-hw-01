@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>My First Project</title>
 </head>
-<body>
+<body >
     <header class="header">
-        <section class="header__top">
+        <div class="header__top">
             <a href="#" class="logo__link">
                 <img src="img/Logo.svg" alt="" class="header__logo">
             </a>
@@ -24,235 +28,230 @@
                     </li>
                 </ul>
                 <ul class="header__contacts">
-                    <li class="header__contacts__item">
+                    <li class="header__contacts__mail">
                         <a href="mailto:info@devstudio.com" class="header__contscts__link">info@devstudio.com</a>
                     </li>
-                    <li class="header__contacts__item">
+                    <li class="header__contacts__tel">
                         <a href="tel:+110001111111" class="header__contscts__link">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </nav>
-        </section>
-        <section class="header__footer">
-            <div class="container">
-                <img src="img/header-background.png" alt="" class="header__background__img">
-            </div>
-            <h1 class="header__title">Effective Solutions for Your Business</h1>
-        </section>
-        <section class="header__button">
-            <button class="header__btn">Order Service</button>
-        </section>
+        </div>
     </header>
-
-    <section class="info">
-        <div class="container">
-            <div class="stategies">
-                <img src="img/strategy-img.svg" alt="" class="img__info">
-                <div class="strategy__item">
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+    <main class="main">
+        <section class="about">
+            <div class="container-big">
+                <div class="header__button">
+                    <h1 class="header__title">Effective Solutions for Your Business</h1>
+                    <button class="header__btn">Order Service</button>
                 </div>
             </div>
-            <div class="stategies">
-                <img src="img/punctuality_img.svg" alt="" class="img__info">
-                <div class="strategy__item">
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            <div class="container">
+                <div class="about__stats">
+                    <div class="stategies">
+                        <img src="img/strategy-img.svg" alt="" class="img__info">
+                        <div class="strategy__item">
+                            <h3>Strategy</h3>
+                            <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                        </div>
+                    </div>
+                    <div class="stategies">
+                        <img src="img/punctuality_img.svg" alt="" class="img__info">
+                        <div class="strategy__item">
+                            <h3>Punctuality</h3>
+                            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                        </div>
+                    </div>
+                    <div class="stategies">
+                        <img src="img/diligence_img.svg" alt="" class="img__info">
+                        <div class="strategy__item">
+                            <h3>Diligence</h3>
+                            <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+                        </div>
+                    </div>
+                    <div class="stategies">
+                        <img src="img/technologies-img.svg" alt="" class="img__info">
+                        <div class="strategy__item">
+                            <h3>Technologies</h3>
+                            <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="our__team">
+                    <div class="our__team-title">
+                        <h2 class="">Our Team</h2>
+                    </div>
+                    <div class="team__persons">
+                        <div class="team__person">
+                            <img src="img/img-person-one.png" alt="img person one" class="team-member">
+                            <div class="team__info">
+                                <h3 class="person__name">Mark Guerrero</h3>
+                                <p class="person__text">Product Designer</p>
+                                <ul class="messengers">
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-instagram.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-twitter.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-facebook.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="img/img-linkedin.svg" class="messenger__link">
+                                            <img src="" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team__person">
+                            <img src="img/img-person-two.png" alt="img person two" class="team-member">
+                            <div class="team__info">
+                                <h3 class="person__name">Tom Ford</h3>
+                                <p class="person__text">Frontend Developer</p>
+                                <ul class="messengers">
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-instagram.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-twitter.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-facebook.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="img/img-linkedin.svg" class="messenger__link">
+                                            <img src="" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team__person">
+                            <img src="img/img-person-three.png" alt="img person three" class="team-member">
+                            <div class="team__info">
+                                <h3 class="person__name">Camila Garcia</h3>
+                                <p class="person__text">Marketing</p>
+                                <ul class="messengers">
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-instagram.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-twitter.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-facebook.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="img/img-linkedin.svg" class="messenger__link">
+                                            <img src="" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team__person">
+                            <img src="img/img-person-four.png" alt="img person four" class="team-member">
+                            <div class="team__info">
+                                <h3 class="person__name">Daniel Wilson</h3>
+                                <p class="person__text">UI Designer</p>
+                                <ul class="messengers">
+                                    <li class="">
+                                        <a href="#" class="messenger__link">
+                                            <img src="img/img-instagram.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-twitter.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="messenger__link">
+                                            <img src="img/img-facebook.svg" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="img/img-linkedin.svg" class="messenger__link">
+                                            <img src="" alt="" class="member__img">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio">
+                    <h2 class="our__portfolio">Our Portfolio</h2>
+                    <div class="portfolio__header">
+                        <div class="portfolio__item">
+                            <img class="portfolio__img" src="img/sectionPortfolio/img-banking.png" alt="img-banking">
+                            <div class="portfolio__text">
+                                <h3>Banking App</h3>
+                                <p>App</p>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <img class="portfolio__img" src="img/sectionPortfolio/img-color.png" alt="img-color">
+                            <div class="portfolio__text">
+                                <h3>Cashless Payment</h3>
+                                <p>Marketing</p>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <img class="portfolio__img" src="img/sectionPortfolio/img-meditation.png" alt="img-meditation">
+                            <div class="portfolio__text">
+                                <h3>Meditation App</h3>
+                                <p>App</p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="portfolio__footer">
+                        <div class="portfolio__item">
+                            <img class="portfolio__img" src="img/sectionPortfolio/img-taxi.png" alt="img-taxi">
+                            <div class="portfolio__text">
+                                <h3>Taxi Service</h3>
+                                <p>Marketing</p>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <img class="portfolio__img" src="img/sectionPortfolio/img-phone.png" alt="img-phone">
+                            <div class="portfolio__text">
+                                <h3>Screen Illustrations</h3>
+                                <p>Design</p>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <img class="portfolio__img" src="img/sectionPortfolio/img-people.png" alt="">
+                            <div class="portfolio__text">
+                                <h3>Online Courses</h3>
+                                <p>Marketing</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="stategies">
-                <img src="img/diligence_img.svg" alt="" class="img__info">
-                <div class="strategy__item">
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
-                </div>
-            </div>
-            <div class="stategies">
-                <img src="img/technologies-img.svg" alt="" class="img__info">
-                <div class="strategy__item">
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="team">
-        <div class="container">
-            <h2 class="our__team">Our Team</h2>
-            <div class="team__members">
-                <div class="team__person">
-                    <img src="img/img-person-one.png" alt="img person one" class="team-member">
-                    <div class="team__info">
-                        <h3 class="person__name">Mark Guerrero</h3>
-                        <p class="person__text">Product Designer</p>
-                        <ul class="messengers">
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-instagram.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-twitter.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-facebook.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="img/img-linkedin.svg" class="messenger__link">
-                                    <img src="" alt="" class="member__img">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team__person">
-                    <img src="img/img-person-two.png" alt="img person two" class="team-member">
-                    <div class="team__info">
-                        <h3 class="person__name">Tom Ford</h3>
-                        <p class="person__text">Frontend Developer</p>
-                        <ul class="messengers">
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-instagram.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-twitter.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-facebook.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="img/img-linkedin.svg" class="messenger__link">
-                                    <img src="" alt="" class="member__img">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team__person">
-                    <img src="img/img-person-three.png" alt="img person three" class="team-member">
-                    <div class="team__info">
-                        <h3 class="person__name">Camila Garcia</h3>
-                        <p class="person__text">Marketing</p>
-                        <ul class="messengers">
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-instagram.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-twitter.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-facebook.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="img/img-linkedin.svg" class="messenger__link">
-                                    <img src="" alt="" class="member__img">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="team__person">
-                    <img src="img/img-person-four.png" alt="img person four" class="team-member">
-                    <div class="team__info">
-                        <h3 class="person__name">Daniel Wilson</h3>
-                        <p class="person__text">UI Designer</p>
-                        <ul class="messengers">
-                            <li class="">
-                                <a href="#" class="messenger__link">
-                                    <img src="img/img-instagram.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-twitter.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="" class="messenger__link">
-                                    <img src="img/img-facebook.svg" alt="" class="member__img">
-                                </a>
-                            </li>
-                            <li class="">
-                                <a href="img/img-linkedin.svg" class="messenger__link">
-                                    <img src="" alt="" class="member__img">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="portfolio">
-        <div class="container">
-            <h2 class="our__portfolio">Our Portfolio</h2>
-            <div class="portfolio__header">
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="img/sectionPortfolio/img-banking.png" alt="img-banking">
-                    <div class="portfolio__text">
-                        <h3>Banking App</h3>
-                        <p>App</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="img/sectionPortfolio/img-color.png" alt="img-color">
-                    <div class="portfolio__text">
-                        <h3>Cashless Payment</h3>
-                        <p>Marketing</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="img/sectionPortfolio/img-meditation.png" alt="img-meditation">
-                    <div class="portfolio__text">
-                        <h3>Meditation App</h3>
-                        <p>App</p>
-                    </div>
-                </div>  
-            </div>
-            <div class="portfolio__footer">
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="img/sectionPortfolio/img-taxi.png" alt="img-taxi">
-                    <div class="portfolio__text">
-                        <h3>Taxi Service</h3>
-                        <p>Marketing</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="img/sectionPortfolio/img-phone.png" alt="img-phone">
-                    <div class="portfolio__text">
-                        <h3>Screen Illustrations</h3>
-                        <p>Design</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img class="portfolio__img" src="img/sectionPortfolio/img-people.png" alt="">
-                    <div class="portfolio__text">
-                        <h3>Online Courses</h3>
-                        <p>Marketing</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+        </section>
+    </main>
     <footer class="footer">
         <div class="container">
             <div class="footer__text">
